@@ -22,6 +22,11 @@ export const LogoStyle = styled.div`
   background: #CD853F;
   border-radius: 7px;
   box-shadow: 1px 1px 9px 6px #B0E0E6;
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
   `
 
 export const DescriptStyle = styled.div`

@@ -30,7 +30,7 @@ const Basket = (props) => {
             <button onClick={()=>props.onIncrement(-1, i)} >
               -
             </button>
-            <button onClick={()=>props.onDelGood(i)}>
+            <button onClick={()=>props.onDelGood(i)} style={{marginLeft: 10, marginRight: 10}}>
               X
             </button>
             <button onClick={()=>props.onIncrement(1, i)}>
